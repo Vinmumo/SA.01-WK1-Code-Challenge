@@ -12,7 +12,7 @@ function calculatePoints(speed) {
 }
 
 function main() {
-    const speed = (prompt("Enter speed of the car in km/h:")); // prompts user to enter speed
+    const speed = parseFloat(prompt("Enter speed of the car in km/h:")); // prompts user to enter speed
     if (isNaN(speed)) {
         console.log("Please enter a valid number.");
         return;
