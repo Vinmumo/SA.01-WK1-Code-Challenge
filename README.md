@@ -21,21 +21,18 @@ Visual Studio Code
 
 ### Installation instruction
 ```
-Git clone https://github.com/hamida-mstafa/Triangle-tracker.git
-
+Git clone https://github.com/Vinmumo/SA.01-WK1-Code-Challenge.git
 ```
 
 # Live Link
 [Git](gh-pages link)
 
 ## Technologies used
-HTML
-CSS
 Github
 Javascript
 
 ## Support and contact details
-github.com/hamida-mstafa
+github.com/Vinmumo
 
 ### License
 The content of this site is licensed under the MIT license
