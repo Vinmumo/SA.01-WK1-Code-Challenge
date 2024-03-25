@@ -92,11 +92,7 @@ return gross - totalTax;                 // calculates and returns Net Salary
 
 function main(){
     const netSal = calculateNetSalary()
-    if(typeof netSal === Number){
     console.log(`Your Net salary is ${netSal}`)  // display Net Salary
-    }else{
-        console.log('Invalid inputs. Please enter valid numbers')
-    }
 }
 
 main()
