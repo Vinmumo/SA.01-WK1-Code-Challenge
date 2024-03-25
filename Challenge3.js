@@ -14,7 +14,7 @@ function calculateGrossSalary(){   // calculate gorss salary
 function calculateNssf (){   // function to calculate NSSF deductions
    const gross = calculateGrossSalary()
    if (gross > 0 && gross <= 7000){
-    return 420;
+    return gross * 0.06;
    }else if (gross > 7000 && gross <= 36000){
     return gross * 0.06;
    }else {
